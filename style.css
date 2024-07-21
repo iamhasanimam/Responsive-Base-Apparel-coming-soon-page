@@ -72,13 +72,13 @@ body {
 .parent--container {
   display: flex;
   width: 100%;
-  height: 100vh;
   background-size: cover;
   overflow: hidden;
   background: url(./images/bg-pattern-desktop.svg) no-repeat center/cover;
   background-color: var(--gradient-light);
   min-height: 100vh;
   flex-wrap: wrap;
+  align-items: flex-sta;
 }
 
 .left {
@@ -225,5 +225,9 @@ body {
 
   .email {
     width: 320px;
+  }
+
+  .form {
+    margin-bottom: 30px;
   }
 }
