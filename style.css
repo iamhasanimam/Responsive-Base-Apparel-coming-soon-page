@@ -65,6 +65,8 @@ body {
   align-items: center;
   font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
+  min-height: 100vh;
+  overflow-y: auto;
 }
 
 .parent--container {
@@ -75,6 +77,8 @@ body {
   overflow: hidden;
   background: url(./images/bg-pattern-desktop.svg) no-repeat center/cover;
   background-color: var(--gradient-light);
+  min-height: 100vh;
+  flex-wrap: wrap;
 }
 
 .left {
